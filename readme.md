@@ -29,3 +29,9 @@ TypeError: Expected string
 
 I have tried various file uploade npm packages all of them use busboy beneth the surface and this is also where the error happen as seen from the stacktrace
 
+## Trying it out
+
+1. `bun run index.ts`
+2. Visit `localhost:3000`
+3. Upload file
+4. See error in the terminal
