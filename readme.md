@@ -1,6 +1,21 @@
 # Bun/Multer/Express
 
-When trying to upload a file through this simple express/multer setup i get the following error:
+## Trying it out
+
+1. `bun run index.ts`
+2. Visit `localhost:3000`
+3. Upload file
+4. See file data in the terminal
+
+## What happens today
+
+And the file is neatly put into the `/uploads` folder
+
+![Screenshot of the file meta data.](/example-upload.png)
+
+## This was the error that used to happen:
+
+~~When trying to upload a file through this simple express/multer setup i get the following error:
 
 ![Screenshot of the error response.](/error-message.png)
 
@@ -27,11 +42,4 @@ TypeError: Expected string
       at node:stream:2913:8
 ```
 
-I have tried various file uploade npm packages all of them use busboy beneth the surface and this is also where the error happen as seen from the stacktrace
-
-## Trying it out
-
-1. `bun run index.ts`
-2. Visit `localhost:3000`
-3. Upload file
-4. See error in the terminal
+I have tried various file uploade npm packages all of them use busboy beneth the surface and this is also where the error happen as seen from the stacktrace ~~
