@@ -15,7 +15,7 @@ And the file is neatly put into the `/uploads` folder
 
 ## This was the error that used to happen:
 
-~~When trying to upload a file through this simple express/multer setup i get the following error:
+<strike> When trying to upload a file through this simple express/multer setup i get the following error:
 
 ![Screenshot of the error response.](/error-message.png)
 
@@ -42,4 +42,5 @@ TypeError: Expected string
       at node:stream:2913:8
 ```
 
-I have tried various file uploade npm packages all of them use busboy beneth the surface and this is also where the error happen as seen from the stacktrace ~~
+I have tried various file uploade npm packages all of them use busboy beneth the surface and this is also where the error happen as seen from the stacktrace
+ </strike>
