@@ -36,6 +36,8 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+uploads/*
+!uploads/.gitkeep
 
 # System files
 .DS_Store
