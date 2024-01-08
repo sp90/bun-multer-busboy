@@ -7,8 +7,21 @@
   <title>Bun upload</title>
 </head>
 <body>
+  <h2>Single avatar upload</h2>
   <form action="/upload" method="POST" enctype="multipart/form-data">
-    <input type="file" name="avatar">
+    <input type="file" placeholder="avatar" name="avatar">
+    <input type="submit">
+  </form>
+
+  <h2>S3 avatar upload</h2>
+  <form action="/s3-upload" method="POST" enctype="multipart/form-data">
+    <input type="file" placeholder="avatar" name="avatar">
+    <input type="submit">
+  </form>
+  
+  <h2>Multiple files upload</h2>
+  <form action="/custom-diskstorage-upload" method="POST" enctype="multipart/form-data">
+    <input type="file" multiple placeholder="multiple" name="multiFilesDone">
     <input type="submit">
   </form>
 </body>

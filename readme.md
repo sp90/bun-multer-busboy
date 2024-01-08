@@ -7,11 +7,24 @@
 3. Upload file
 4. See file data in the terminal
 
-## What happens today
+## What happens single upload
 
 And the file is neatly put into the `/uploads` folder
 
 ![Screenshot of the file meta data.](/example-upload.png)
+
+## What happens multi file upload
+
+And the file is neatly put into the `/uploads` folder
+
+![Screenshot of the file meta data.](/multiple-file-upload-success.png)
+
+## What happens with s3
+
+Uploads the file to s3
+
+![Screenshot of the file meta data.](/success-s3.png)
+
 
 ## This was the error that used to happen:
 
