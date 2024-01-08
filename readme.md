@@ -7,6 +7,12 @@
 3. Upload file
 4. See file data in the terminal
 
+#### To test s3 make sure to 
+
+1. duplicate .env-example
+2. rename to .env
+3. add your s3 bucket secrets
+
 ## What happens single upload
 
 And the file is neatly put into the `/uploads` folder
